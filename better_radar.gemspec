@@ -6,10 +6,10 @@ require 'better_radar/version'
 Gem::Specification.new do |spec|
   spec.name          = "better_radar"
   spec.version       = BetterRadar::VERSION
-  spec.authors       = ["kknevitt"]
-  spec.email         = ["knev123@hotmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["kknevitt", "joe-dickinson"]
+  spec.email         = ["knev123@hotmail.com", "joe.dickinson.84@gmail.com"]
+  spec.summary       = %q{Importer for BetRadar Fixtures Feed}
+  spec.description   = %q{Uses XML Data from BetRadar}
   spec.homepage      = ""
   spec.license       = "MIT"
 
