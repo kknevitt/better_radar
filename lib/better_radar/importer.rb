@@ -15,7 +15,7 @@ class Importer
   end
 
   def get_feed
-    @xml_data = Nokogiri::XML(open(build_url))
+    @xml_data ||= Nokogiri::XML(open(build_url))
   end
 
   def feed_as_xml
