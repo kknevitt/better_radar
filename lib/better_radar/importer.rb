@@ -18,6 +18,10 @@ class Importer
     @xml_data = Nokogiri::XML(open(build_url))
   end
 
+  def feed_as_xml
+    @xml_data.to_xml if @xml_data
+  end
+
   private
 
   def build_url
